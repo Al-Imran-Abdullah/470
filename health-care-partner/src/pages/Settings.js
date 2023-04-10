@@ -38,8 +38,7 @@ const Settings = () => {
                 <SocialShare />
 
                 <h2 className="text-brand fs-4 mt-5">Contact Us</h2>
-                {/* <p>Abdullah Al Imran <br /><a href="tel:01875500975">01875500975</a></p> */}
-                <p>Eftykhar Rahman Raufu (For Development Version Only)<br /><a href="tel:01611404405">01611404405</a></p>
+                <p>Abdullah Al Imran <br /><a href="tel:01875500975">01875500975</a></p>
 
                 <h2 className="text-brand fs-4 mt-5">Font Size</h2>
                 <button onClick={() => handleIncreaseFontSize()} className='btn btn-success px-5'>+</button>
