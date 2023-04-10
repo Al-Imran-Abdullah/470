@@ -13,7 +13,7 @@ const SignUp = () => {
 
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch('https://healthcare-hthc.onrender.com/addUser', {
+        fetch('http://localhost:5001/addUser', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

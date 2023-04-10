@@ -20,7 +20,7 @@ const SelfCare = () => {
             email: user.email
         }
 
-        fetch('https://healthcare-hthc.onrender.com/water', {
+        fetch('http://localhost:5001/water', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(details)

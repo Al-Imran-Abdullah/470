@@ -9,7 +9,7 @@ const useCredential = () => {
 
     // getting userInfo from localStorage id and backend API
     const userData = () => {
-        fetch('https://healthcare-hthc.onrender.com/user/' + id)
+        fetch('http://localhost:5001/user/' + id)
             .then(response => response.json())
             .then(data => setUser(data))
     }
@@ -26,7 +26,7 @@ const useCredential = () => {
 
     useEffect(() => {
         if (user.email) {
-            fetch('https://healthcare-hthc.onrender.com/mood-by-email/' + user.email)
+            fetch('http://localhost:5001/mood-by-email/' + user.email)
                 .then(response => response.json())
                 .then(data => data.status === true && setMood(data.result))
         }
@@ -34,7 +34,7 @@ const useCredential = () => {
 
     useEffect(() => {
         if (user.email) {
-            fetch('https://healthcare-hthc.onrender.com/water-by-email/' + user.email)
+            fetch('http://localhost:5001/water-by-email/' + user.email)
                 .then(response => response.json())
                 .then(data => data.status === true && setWater(data.result))
         }
