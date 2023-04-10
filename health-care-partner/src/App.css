@@ -1,0 +1,27 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-brand {
+    background-color: #efefef;
+    min-height: 100vh;
+}
+
+.bg-brand-color {
+    background-color: #efefef;
+}
+
+.custom-navbar {
+    box-shadow: 0 5px 5px #c4c4c44d;
+}
+
+.title {
+    color: #9b1b62;
+    line-height: 44px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.text-brand {
+    color: #9b1b62;
+}
