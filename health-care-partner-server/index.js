@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to The Backend!')
 })
 
-const uri = "mongodb+srv://gudduraufu:camWUWDJyaCvbq0P@cluster0.fswacqy.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://abdullahalimran:TQTEgSGvwkJbNkOH@cluster0.wpobv3j.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 client.connect(err => {
